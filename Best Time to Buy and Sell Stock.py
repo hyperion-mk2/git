@@ -17,6 +17,7 @@ class Solution:
         :rtype: List[str]
         """
         self.des(self,0,digits)
+        fulllistnew = self.fulllist.copy()
         return self.fulllist
     def des(self,num,digits):
         if (num == len(digits)):
